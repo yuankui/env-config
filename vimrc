@@ -125,3 +125,4 @@ set statusline=[%n]\file:\%f\\|\dir:\%{CurDir()}\%=\%l,%c\ %p%%
 
 
 
+set nu
