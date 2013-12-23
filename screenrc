@@ -1,0 +1,8 @@
+#defutf8 on #хГ╧ШспжпндбрбК╬м╪сиоё╛╥ЯтР©ирт╡╩сц
+defencoding utf8
+encoding utf8 utf8 
+defscrollback 9990 #©ирт╫Б╬Жиафа╣днйлБ
+vbell off #©и╫Б╬Жиафа╣днйлБ
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
+startup_message off 
+escape o 
