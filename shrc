@@ -19,3 +19,6 @@ alias gitcount2='sh ~/.gitcount'
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/usr/local/mysql/lib"
 export PATH=/usr/local/sbin:$PATH
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
+function up() {
+	scp $1 yuankui@yuankui.me:/home/yuankui/uploads
+}
