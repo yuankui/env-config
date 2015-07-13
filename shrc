@@ -1,32 +1,11 @@
-alias rm='rm -rf'
-alias f='find .'
-function vf() {
-	vim $(fzf)
-}
-alias ..='cd ..'
-alias ...='cd ../../'
-alias ....='cd ../../../'
-alias .....='cd ../../../../'
-alias ......='cd ../../../../../'
-alias cleanssh="kill `ps x|grep zhenhe|awk '{print $1}'`"
-alias hbm='cd ~/work/hbm-new'
-alias dev='git co dev'
-alias master='git co master'
-alias vpn='~/baidu/vpn/shadowsocks-mac'
-export PATH=/opt/local/bin:$PATH
 export PATH=/Users/yuankui/apache-maven/bin:$PATH
-export PATH=/usr/local/mysql/bin:$PATH
-alias gitcount1='git log --author="$(git config --get user.name)" --no-merges --since=1am --stat'
-alias gitcount2='sh ~/.gitcount'
-export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/usr/local/mysql/lib"
-export PATH=/usr/local/sbin:$PATH
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
-export LANG="zh_CN.UTF-8"
-export LC_ALL="zh_CN.UTF-8"
-function up() {
-	scp $1 yuankui@yuankui.me:/home/yuankui/uploads
-}
+export PATH=/usr/libexec:$PATH
+export JAVA_HOME=$(/usr/libexec/java_home)
+alias rm='rm -rf'
+alias zkcli='~/services/zookeeper/bin/zkCli.sh'
+alias tailf='tail -f'
+alias fraudmetrix='git config --global user.email kui.yuan@fraudmetrix.cn'
+alias gmail='git config --global user.email yuankui64@gmail.com'
 
-
-## git
-alias gitlog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+# fzf options
+export FZF_DEFAULT_OPTS='-x'
