@@ -9,3 +9,4 @@ alias gmail='git config --global user.email yuankui64@gmail.com'
 
 # fzf options
 export FZF_DEFAULT_OPTS='-x'
+alias vfzf='vim $(fzf)'
